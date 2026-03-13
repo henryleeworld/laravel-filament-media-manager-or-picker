@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'details' => [
         'uploaded_on' => 'Nahráno',
@@ -21,7 +23,6 @@ return [
         'edit' => 'Upravit',
         'download' => 'Stáhnout',
         'remove' => 'Odstranit',
-        'clear' => 'Odstranit vše',
     ],
     'panel' => [
         'button' => 'Přidat média',
@@ -43,8 +44,6 @@ return [
         'edit' => 'Upravit',
         'download' => 'Stáhnout',
         'remove' => 'Odstranit',
-        'deselect_all' => 'Zrušit veškerý výběr',
-        'add_multiple_file' => ':key + kliknutím vyberete více souborů.',
     ],
     'curation' => [
         'heading' => 'Ořez',

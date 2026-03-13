@@ -1,11 +1,15 @@
 <?php
 
 return [
+    'resource' => [
+        'label' => '媒體',
+        'plural_label' => '媒體',
+    ],
     'details' => [
         'uploaded_on' => '上傳日期',
-        'file_type' => '檔案類型',
+        'mime_type' => 'MIME 類型',
         'file_size' => '檔案大小',
-        'dimensions' => '尺寸',
+        'dimensions' => '維度',
         'disk' => '磁碟',
         'directory' => '目錄',
         'file_url' => '檔案網址',
@@ -29,10 +33,10 @@ return [
         'search_label' => '搜尋',
         'search_placeholder' => '搜尋',
         'upload_tab' => '上傳媒體',
-        'media_library_tab' => '媒體資料庫',
+        'media_library_tab' => '媒體庫',
         'deselect' => '取消選擇',
         'load_more' => '載入更多',
-        'empty' => '資料庫中沒有檔案或未找到符合您搜尋的內容。',
+        'empty' => '媒體庫中沒有檔案或未找到符合您搜尋的內容。',
         'edit_media' => '編輯媒體',
         'edit_save' => '儲存',
         'edit_delete' => '刪除',
@@ -48,11 +52,9 @@ return [
     ],
     'curation' => [
         'heading' => '精選',
-        'preset' => '預設',
         'adjustments' => '調整',
         'cancel' => '取消',
         'custom' => '自定義',
-        'thumbnail' => '縮圖',
         'key' => '鍵值',
         'key_helper' => '這是用於獲得您的精選參考。',
         'zoom_in' => '畫面放大',
@@ -69,5 +71,11 @@ return [
         'quality' => '品質',
         'rotate' => '旋轉',
         'rotate_deg' => '角度',
+        'preset' => '預設',
+    ],
+    'attach_curator_media' => [
+        'modal' => [
+            'heading' => '從媒體庫中選擇媒體',
+        ],
     ],
 ];

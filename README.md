@@ -1,9 +1,9 @@
-# Laravel 11 Filament 媒體總管或選擇器
+# Laravel 12 Filament 媒體總管或選擇器
 
 Filament 媒體總管或選擇器採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，無論是上傳、下載、編輯等皆可於媒體總管中進行。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl 和 zip，並重啟服務器。
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 gd、intl 和 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -39,8 +39,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/7uPb8MR.png)
+![](https://i.imgur.com/jll0aoz.png)
 > 媒體可以透過檔案上傳
 
-![](https://i.imgur.com/uzKhJgr.png)
+![](https://i.imgur.com/OxWKbjt.png)
 > 文字有助於充分瞭解媒體主題，以及媒體在網頁中的意義

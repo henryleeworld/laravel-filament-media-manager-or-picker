@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'sections' => [
         'details' => '詳細',
@@ -25,10 +27,5 @@ return [
     ],
     'curations' => [
         'button_label' => 'キュレーションを作成',
-    ],
-    'multi_upload' => [
-        'action_label' => '複数アップロード',
-        'modal_heading' => '複数ファイルをアップロードする',
-        'modal_file_label' => 'ファイル',
     ],
 ];

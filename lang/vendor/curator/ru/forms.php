@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'sections' => [
         'details' => 'Детали',
@@ -25,10 +27,5 @@ return [
     ],
     'curations' => [
         'button_label' => 'Создание курирования',
-    ],
-    'multi_upload' => [
-        'action_label' => 'Множественная загрузка',
-        'modal_heading' => 'Множественная загрузка файлов',
-        'modal_file_label' => 'Файлы',
     ],
 ];

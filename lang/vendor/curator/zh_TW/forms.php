@@ -7,7 +7,7 @@ return [
         'file' => '檔案',
         'meta' => '詮釋',
         'preview' => '預覽',
-        'upload_new' => '上傳新內容',
+        'replace' => '取代',
         'upload_new_helper' => '如果對媒體進行任何更改，則可能需要重新生成它，這不會自動發生。',
         'curation' => '精選',
     ],

@@ -1,9 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 return [
+    'resource' => [
+        'label' => 'Media',
+        'plural_label' => 'Media',
+    ],
     'details' => [
         'uploaded_on' => 'Uploaded On',
-        'file_type' => 'File Type',
+        'mime_type' => 'Mime Type',
         'file_size' => 'File Size',
         'dimensions' => 'Dimensions',
         'disk' => 'Disk',
@@ -44,15 +50,13 @@ return [
         'download' => 'Download',
         'remove' => 'Remove',
         'deselect_all' => 'Deselect All',
-        'add_multiple_file' => ':key + Click to select multiple files.',
+        'add_multiple_file' => 'Cmd + Click to select multiple files.',
     ],
     'curation' => [
         'heading' => 'Curating',
-        'preset' => 'Preset',
         'adjustments' => 'Adjustments',
         'cancel' => 'Cancel',
         'custom' => 'Custom',
-        'thumbnail' => 'Thumbnail',
         'key' => 'Key',
         'key_helper' => 'This is the reference used to retrieve your curation for display.',
         'zoom_in' => 'Zoom In',
@@ -69,5 +73,11 @@ return [
         'quality' => 'Quality',
         'rotate' => 'Rotate',
         'rotate_deg' => 'deg',
+        'preset' => 'Preset',
+    ],
+    'attach_curator_media' => [
+        'modal' => [
+            'heading' => 'Select Media from Library',
+        ],
     ],
 ];
